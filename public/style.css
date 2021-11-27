@@ -1,0 +1,424 @@
+@media only screen and (max-width: 600px){
+  body {
+    color: white;
+    margin: 0;
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+  }
+  section{
+    display: inline-block;
+  }
+  .sketchfab-embed-wrapper{
+    background-color: black;
+    width: 500px;
+    height: 400px;
+    
+  }
+  .frame{
+    width: 500px;
+    height: 500px;
+  }
+  #over 
+  { 
+    background-color: #f3ec78;
+    font-size:5em; 
+    position:absolute; 
+    top: 100px;
+    left: 34%;
+    background-image: linear-gradient(45deg, #12f11d, #ffffff);
+    opacity: 80%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    animation: fadeInAnimation ease 3s;
+   animation-iteration-count: 1;
+   animation-fill-mode: forwards;
+    z-index:2 
+}
+  @keyframes fadeInAnimation {
+    0%,20%{
+      opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+  }
+  .middle-layer{
+    background-color: black;
+    width: 500px;
+    height: 800px;
+    position: relative;
+    bottom: 0px;
+    border: black;
+    text-align: center;
+  
+  
+  }
+  .first-layer{
+    padding-top: 20%;
+    
+  }
+  .im{
+    font-size: 4rem;
+    display: inline-block;
+    color: #ffffff;
+  }
+  .about{
+    font-size: 4rem;
+    display: inline-block;
+    color: #ffffff;
+  }
+  .first-button{
+    top: 30%;
+  }
+  button .about {
+     display: none;
+     }
+  button:hover .im {
+     display: none; 
+    }
+  button:hover .about {
+     display: inline; 
+  
+    }
+    .name{
+      font-size: 4rem;
+      display: block;
+      color: red;
+     }
+    .contact{
+      font-size: 4rem;
+      display: block;
+      color: red;
+    }
+    button .contact {
+      display: none;
+      }
+   button:hover .name {
+      display: none; 
+     }
+   button:hover .contact {
+      display: inline; 
+     }
+     a{
+      text-decoration: none;
+    }
+   .about-layer{
+    font-size: 5rem;
+    display: block;
+    color: #ffffff;
+    margin-top: 20%;
+    margin-left:  10%;
+    animation: animate__fadeInDown ease 2s;
+     animation-iteration-count: 1;
+     animation-fill-mode: forwards;
+    
+  }
+  @keyframes animate__fadeInDown {
+    0%,20%{
+      opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+  }
+  .front-span{
+    color: #12f11d;
+  }
+  .A-sec-layer{
+    background-color: black;
+    width: 1440px;
+    height: 1064px;
+    position: relative;
+    bottom: 0px;
+    border: black;
+    text-align: center;
+  }
+  
+  .tech{
+    font-size: 3rem;
+    margin-bottom: 40px;
+    text-align: end;
+  }
+  .lang{
+    font-size: 1.5rem;
+    word-spacing: 50px;
+    text-align: end;
+    margin-top: 0;
+  }
+  .design{
+    font-size: 3rem;
+    margin-bottom: 40px;
+    text-align: start;
+    
+  }
+  .design-name{
+    font-size: 1.5rem;
+    word-spacing: 50px;
+    text-align: start;
+    margin-top: 0;
+    
+  }
+  .server{
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-align: end;
+  }
+  .server-name{
+    font-size: 1.5rem;
+    word-spacing: 50px;
+    text-align: end;
+    margin-top: 0;
+  }
+  .contact-head{
+    display: block;
+    font-size: 3rem;
+    text-align:start;
+    margin-bottom: 20%;
+    margin-top: 20%;
+  }
+  .contact-sec-head{
+    display: block;
+    font-size: 2rem;
+   margin-left: 20%;
+   color: aqua;
+  }
+  .para{
+    display: block;
+    font-size: 1.1rem;
+    width: 300px;
+    margin-left: 20%;
+    text-decoration: none;
+  }
+  .link{
+    padding: 10% 0 30% 20%;
+    width: 300px;
+  
+  }
+  a.footer-link{
+    margin-left: 10px;
+    font-size: 1rem;
+  }
+  a.footer-link:hover{
+      text-decoration: underline;
+  }
+}
+
+
+
+
+
+
+/*destop*/
+@media only screen and (min-width: 600px) {
+body {
+    color: white;
+    margin: 0;
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  section{
+    display: inline-block;
+  }
+  .sketchfab-embed-wrapper{
+    background-color: black;
+    width: 1440px;
+    height: 1064px;
+    
+  }
+  .frame{
+    width: 1440px;
+    height: 1064px;
+  }
+  #over 
+  { 
+    background-color: #f3ec78;
+    font-size:10em; 
+    position:absolute; 
+    top: 200px;
+    left: 38%;
+    background-image: linear-gradient(45deg, #12f11d, #ffffff);
+    opacity: 80%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    animation: fadeInAnimation ease 3s;
+   animation-iteration-count: 1;
+   animation-fill-mode: forwards;
+    z-index:2 
+}
+  @keyframes fadeInAnimation {
+    0%,20%{
+      opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+  }
+.middle-layer{
+  background-color: black;
+  width: 1440px;
+  height: 1064px;
+  position: relative;
+  bottom: 0px;
+  border: black;
+  text-align: center;
+
+
+}
+.first-layer{
+  padding-top: 20%;
+  
+}
+.im{
+  font-size: 9rem;
+  display: inline-block;
+  color: #ffffff;
+}
+.about{
+  font-size: 9rem;
+  display: inline-block;
+  color: #ffffff;
+}
+.first-button{
+  top: 30%;
+}
+button .about {
+   display: none;
+   }
+button:hover .im {
+   display: none; 
+  }
+button:hover .about {
+   display: inline; 
+
+  }
+.name{
+    font-size: 9rem;
+    display: block;
+    color: red;
+   }
+  .contact{
+    font-size: 9rem;
+    display: block;
+    color: red;
+  }
+  button .contact {
+    display: none;
+    }
+ button:hover .name {
+    display: none; 
+   }
+ button:hover .contact {
+    display: inline; 
+   }
+  a{
+    text-decoration: none;
+  }
+ .about-layer{
+  font-size: 5rem;
+  display: block;
+  color: #ffffff;
+  margin-top: 20%;
+  margin-left:  10%;
+  animation: animate__fadeInDown ease 2s;
+   animation-iteration-count: 1;
+   animation-fill-mode: forwards;
+  
+}
+@keyframes animate__fadeInDown {
+  0%,20%{
+    opacity: 0;
+  }
+  100% {
+      opacity: 1;
+   }
+}
+.front-span{
+  color: #12f11d;
+}
+.A-sec-layer{
+  background-color: black;
+  width: 1440px;
+  height: 1064px;
+  position: relative;
+  bottom: 0px;
+  border: black;
+  text-align: center;
+}
+
+.tech{
+  font-size: 5rem;
+  margin-bottom: 40px;
+  text-align: end;
+}
+.lang{
+  font-size: 3rem;
+  word-spacing: 50px;
+  text-align: end;
+  margin-top: 0;
+}
+.design{
+  font-size: 5rem;
+  margin-bottom: 40px;
+  text-align: start;
+  
+}
+.design-name{
+  font-size: 3rem;
+  word-spacing: 50px;
+  text-align: start;
+  margin-top: 0;
+  
+}
+.server{
+  font-size: 5rem;
+  margin-bottom: 40px;
+  text-align: end;
+}
+.server-name{
+  font-size: 3rem;
+  word-spacing: 50px;
+  text-align: end;
+  margin-top: 0;
+}
+.server-layer{
+  height: 300px;
+}
+.contact-head{
+  display: block;
+  font-size: 6rem;
+  text-align:start;
+  margin-bottom: 20%;
+  margin-top: 20%;
+}
+.contact-sec-head{
+  display: block;
+  font-size: 3rem;
+ margin-left: 50%;
+ color: aqua;
+}
+.para{
+  display: block;
+  font-size: 1.3rem;
+  width: 600px;
+  margin-left: 50%;
+  text-decoration: none;
+}
+.link{
+  padding: 10% 0 30% 50%;
+  width: 500px;
+
+}
+a.footer-link{
+  margin-left: 30px;
+  font-size: 1.3rem;
+}
+a.footer-link:hover{
+    text-decoration: underline;
+}
+
+}
